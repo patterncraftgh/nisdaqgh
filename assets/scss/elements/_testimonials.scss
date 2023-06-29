@@ -36,17 +36,7 @@
         .thumbnail{
             position: relative;
             margin-left: 75px;
-            &::after{
-                position: absolute;
-                left: -18%;
-                bottom: 0;
-                top: 70%;
-                content: '';
-                background-image: url(../images/testimonials/logo/01.png);
-                height: 150px;
-                width: 150px;
-                background-repeat: no-repeat;
-            }
+            
         }
     }  
     .testimonials-right{
